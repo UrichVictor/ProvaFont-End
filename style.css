@@ -1,0 +1,59 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(img/FestaJunina.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: mine;
+    src: url(minecraft-font/Minecraft.ttf);
+}
+
+.Prova{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-weight: 100;
+    font-family: mine;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: right;
+    font-family: mine;
+    font-weight: 100;
+    position: absolute;
+    right: 10%;
+}
+
+h2{
+    color: blueviolet;
+}
+
+a{
+    margin-top: 300px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: mine;
+    font-size: 50px;
+}
+
+a:hover{
+    background-color: #ffffff8a;
+    color: #ffffff;
+    transition: .3s all;
+}
